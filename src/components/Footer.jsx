@@ -25,8 +25,8 @@ function Footer() {
         <div className="footer-section">
           <h3>Contact</h3>
 
-          <p>📞 +91 9876543210</p>
-          <p>📧 fitzonegym@gmail.com</p>
+          <p>📞  +91 XXXXX XXXXX</p>
+          <p>📧 fitzonegym@example.com</p>
           <p>📍 Mumbai, India</p>
         </div>
 

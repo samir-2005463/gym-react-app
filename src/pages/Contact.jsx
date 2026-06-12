@@ -9,9 +9,9 @@ function Contact() {
         <div className="contact-info">
           <h2>FitZone Gym</h2>
 
-          <p>📞 +91 9876543210</p>
-          <p>📧 fitzonegym@gmail.com</p>
-          <p>📍 Mumbai, India</p>
+          <p>📞 Contact Available on Request</p>
+          <p>📧 samirk20990@gmail.com</p>
+          <p>📍 India</p>
 
           <p>
             Join our gym and start your fitness journey today.
@@ -19,20 +19,29 @@ function Contact() {
         </div>
 
         <div className="contact-form">
-          <form>
+          <form
+            action="https://formsubmit.co/samirk20990@gmail.com"
+            method="POST"
+          >
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
+              required
             />
 
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
+              required
             />
 
             <textarea
+              name="message"
               placeholder="Your Message"
               rows="5"
+              required
             ></textarea>
 
             <button type="submit">
